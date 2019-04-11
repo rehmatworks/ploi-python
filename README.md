@@ -38,7 +38,7 @@ p.list_sites(serverId)
 ```python
 data = {
     'root_domain': 'example.com',
-    'web_directory': '/example/', # Slashes are complusory
+    'web_directory': '/example/', # Slashes are compulsory
 }
 p.create_site(serverId, data=data)
 ```
