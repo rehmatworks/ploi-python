@@ -1,0 +1,6 @@
+*.pyc
+ploi.egg-info
+vhost
+dist
+build
+*.swp
