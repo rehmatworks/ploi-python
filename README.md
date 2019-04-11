@@ -4,8 +4,13 @@ A Python package to interact with [Ploi API](https://developers.ploi.io/).
 Ploi is an awesome server management tool that lets you manage an Ubuntu server to host PHP applications with great flexibility. If you want to programatically interact with Ploi using Python, then this package will let you consume their API the easy way.
 
 ## Installation
+Install from PyPi:
 ```shell
 pip install ploi
+```
+or clone this repo and run:
+```python
+python setup.py install
 ```
 ### Usage
 ```python
