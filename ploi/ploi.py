@@ -48,7 +48,13 @@ class Ploi:
 
     def create_site(self, serverId, data):
         # Data should be a dictionary: {'root_domain': 'abc.com', 'web_directory': '/abc/', 'project_root': '/abc/'}
-        params = ['root_domain', 'web_directory']
+        if not 'web_directory' in data:
+            data['web_directory'] = '/public/'
+
+        if not 'project_root' in data:
+            data['project_root'] = '/rwp/'
+
+        params = ['root_domain']
         for item in params:
             if not item in data:
                 raise Exception('{} is a required parameter.'.format(item))
