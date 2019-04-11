@@ -73,4 +73,4 @@ p.show_database(serverId, databaseId)
 p.delete_database(serverId, databaseId)
 ```
 
-More methods will supported in future versions as this is just a starting point.
+More methods will be supported in future versions as this is just a starting point.
